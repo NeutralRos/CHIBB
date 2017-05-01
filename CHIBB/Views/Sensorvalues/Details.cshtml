@@ -1,0 +1,42 @@
+@model CHIBB.Sensorvalues
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Sensorvalues</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Sensordata)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Sensordata)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Datadate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Datadate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Ipadress)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Ipadress)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.IdentifierNavigation)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.IdentifierNavigation.Identifier)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Valuekey">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
