@@ -4,7 +4,8 @@ CREATE TABLE Sensors (
     Identifier varchar(255) NOT NULL PRIMARY KEY,
     SensorName varchar(255),
     SensorType varchar(255),
-    SensorComment varchar(255) 
+    SensorComment varchar(255),
+    Active bool
 );
 
 CREATE TABLE SensorValues (

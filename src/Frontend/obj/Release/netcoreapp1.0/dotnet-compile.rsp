@@ -1,12 +1,12 @@
---temp-output:C:\CHIBB\CHIBB\src\Frontend\obj\Debug\netcoreapp1.0\
---out:C:\CHIBB\CHIBB\src\Frontend\bin\Debug\netcoreapp1.0\Frontend.dll
---define:DEBUG
+--temp-output:C:\CHIBB\CHIBB\src\Frontend\obj\Release\netcoreapp1.0\
+--out:C:\CHIBB\CHIBB\src\Frontend\bin\Release\netcoreapp1.0\Frontend.dll
+--define:RELEASE
 --define:TRACE
 --define:NETCOREAPP1_0
 --suppress-warning:CS1701
 --suppress-warning:CS1702
 --suppress-warning:CS1705
---optimize:False
+--optimize:True
 --emit-entry-point:True
 --output-name:Frontend
 --file-version:1.0.0.0
@@ -224,7 +224,7 @@
 --reference:C:\Users\0879062\.nuget\packages\System.Threading.Timer\4.3.0\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\0879062\.nuget\packages\System.Xml.ReaderWriter\4.3.0\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\0879062\.nuget\packages\System.Xml.XDocument\4.3.0\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"C:\CHIBB\CHIBB\src\Frontend\obj\Debug\netcoreapp1.0\Frontenddotnet-compile.deps.json",Frontend.deps.json
+--resource:"C:\CHIBB\CHIBB\src\Frontend\obj\Release\netcoreapp1.0\Frontenddotnet-compile.deps.json",Frontend.deps.json
 C:\CHIBB\CHIBB\src\Frontend\Program.cs
 C:\CHIBB\CHIBB\src\Frontend\Startup.cs
 C:\CHIBB\CHIBB\src\Frontend\Data\ApplicationDbContext.cs
