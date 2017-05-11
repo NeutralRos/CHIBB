@@ -1,0 +1,9 @@
+D:\Windows\Projects\CHIBB\CHIBB\bin\Release\netcoreapp1.1\CHIBB.deps.json
+D:\Windows\Projects\CHIBB\CHIBB\bin\Release\netcoreapp1.1\CHIBB.runtimeconfig.json
+D:\Windows\Projects\CHIBB\CHIBB\bin\Release\netcoreapp1.1\CHIBB.runtimeconfig.dev.json
+D:\Windows\Projects\CHIBB\CHIBB\bin\Release\netcoreapp1.1\CHIBB.dll
+D:\Windows\Projects\CHIBB\CHIBB\bin\Release\netcoreapp1.1\CHIBB.pdb
+D:\Windows\Projects\CHIBB\CHIBB\obj\Release\netcoreapp1.1\CHIBB.csprojResolveAssemblyReference.cache
+D:\Windows\Projects\CHIBB\CHIBB\obj\Release\netcoreapp1.1\CHIBB.AssemblyInfo.cs
+D:\Windows\Projects\CHIBB\CHIBB\obj\Release\netcoreapp1.1\CHIBB.dll
+D:\Windows\Projects\CHIBB\CHIBB\obj\Release\netcoreapp1.1\CHIBB.pdb

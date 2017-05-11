@@ -7,3 +7,12 @@ C:\Users\oveld\documents\visual studio 2017\Projects\CHIBB\SensorGenerator\bin\D
 C:\Users\oveld\documents\visual studio 2017\Projects\CHIBB\SensorGenerator\obj\Debug\netcoreapp1.1\SensorGenerator.dll
 C:\Users\oveld\documents\visual studio 2017\Projects\CHIBB\SensorGenerator\obj\Debug\netcoreapp1.1\SensorGenerator.pdb
 C:\Users\oveld\documents\visual studio 2017\Projects\CHIBB\SensorGenerator\obj\Debug\netcoreapp1.1\SensorGenerator.csprojResolveAssemblyReference.cache
+D:\Windows\Projects\CHIBB\SensorGenerator\bin\Debug\netcoreapp1.1\SensorGenerator.deps.json
+D:\Windows\Projects\CHIBB\SensorGenerator\bin\Debug\netcoreapp1.1\SensorGenerator.runtimeconfig.json
+D:\Windows\Projects\CHIBB\SensorGenerator\bin\Debug\netcoreapp1.1\SensorGenerator.runtimeconfig.dev.json
+D:\Windows\Projects\CHIBB\SensorGenerator\bin\Debug\netcoreapp1.1\SensorGenerator.dll
+D:\Windows\Projects\CHIBB\SensorGenerator\bin\Debug\netcoreapp1.1\SensorGenerator.pdb
+D:\Windows\Projects\CHIBB\SensorGenerator\obj\Debug\netcoreapp1.1\SensorGenerator.csprojResolveAssemblyReference.cache
+D:\Windows\Projects\CHIBB\SensorGenerator\obj\Debug\netcoreapp1.1\SensorGenerator.AssemblyInfo.cs
+D:\Windows\Projects\CHIBB\SensorGenerator\obj\Debug\netcoreapp1.1\SensorGenerator.dll
+D:\Windows\Projects\CHIBB\SensorGenerator\obj\Debug\netcoreapp1.1\SensorGenerator.pdb

@@ -7489,10 +7489,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\oveld\\documents\\visual studio 2017\\Projects\\CHIBB\\SensorGenerator\\SensorGenerator.csproj",
+      "projectUniqueName": "D:\\Windows\\Projects\\CHIBB\\SensorGenerator\\SensorGenerator.csproj",
       "projectName": "SensorGenerator",
-      "projectPath": "C:\\Users\\oveld\\documents\\visual studio 2017\\Projects\\CHIBB\\SensorGenerator\\SensorGenerator.csproj",
-      "outputPath": "C:\\Users\\oveld\\documents\\visual studio 2017\\Projects\\CHIBB\\SensorGenerator\\obj\\",
+      "projectPath": "D:\\Windows\\Projects\\CHIBB\\SensorGenerator\\SensorGenerator.csproj",
+      "outputPath": "D:\\Windows\\Projects\\CHIBB\\SensorGenerator\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"

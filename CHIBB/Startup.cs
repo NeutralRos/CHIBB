@@ -31,7 +31,7 @@ namespace CHIBB
         {
             services.AddMvc();
 
-            var connection = @"Host=localhost;Database=CHIBB;Username=postgres;Password=primo1994";
+            var connection = @"Host=localhost;Database=CHIBB;Username=postgres;Password=FarCry3";
             services.AddDbContext<CHIBBContext>(options => options.UseNpgsql(connection));
 
             services.AddScoped<ISensorsRepository, SenorsRepository>();

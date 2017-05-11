@@ -6,3 +6,11 @@ C:\Users\oveld\documents\visual studio 2017\Projects\CHIBB\CHIBB\bin\Debug\netco
 C:\Users\oveld\documents\visual studio 2017\Projects\CHIBB\CHIBB\obj\Debug\netcoreapp1.1\CHIBB.AssemblyInfo.cs
 C:\Users\oveld\documents\visual studio 2017\Projects\CHIBB\CHIBB\obj\Debug\netcoreapp1.1\CHIBB.dll
 C:\Users\oveld\documents\visual studio 2017\Projects\CHIBB\CHIBB\obj\Debug\netcoreapp1.1\CHIBB.pdb
+D:\Windows\Projects\CHIBB\CHIBB\bin\Debug\netcoreapp1.1\CHIBB.deps.json
+D:\Windows\Projects\CHIBB\CHIBB\bin\Debug\netcoreapp1.1\CHIBB.runtimeconfig.json
+D:\Windows\Projects\CHIBB\CHIBB\bin\Debug\netcoreapp1.1\CHIBB.runtimeconfig.dev.json
+D:\Windows\Projects\CHIBB\CHIBB\obj\Debug\netcoreapp1.1\CHIBB.AssemblyInfo.cs
+D:\Windows\Projects\CHIBB\CHIBB\bin\Debug\netcoreapp1.1\CHIBB.dll
+D:\Windows\Projects\CHIBB\CHIBB\bin\Debug\netcoreapp1.1\CHIBB.pdb
+D:\Windows\Projects\CHIBB\CHIBB\obj\Debug\netcoreapp1.1\CHIBB.dll
+D:\Windows\Projects\CHIBB\CHIBB\obj\Debug\netcoreapp1.1\CHIBB.pdb

@@ -29,6 +29,8 @@ namespace CHIBB
                     .HasColumnType("varchar")
                     .HasMaxLength(255);
 
+                entity.Property(e => e.Active).HasColumnName("active");
+
                 entity.Property(e => e.Sensorcomment)
                     .HasColumnName("sensorcomment")
                     .HasColumnType("varchar")
@@ -52,7 +54,9 @@ namespace CHIBB
 
                 entity.ToTable("sensorvalues");
 
-                entity.Property(e => e.Valuekey).HasColumnName("valuekey");
+                entity.Property(e => e.Valuekey)
+                    .HasColumnName("valuekey")
+                    .ValueGeneratedNever();
 
                 entity.Property(e => e.Datadate)
                     .HasColumnName("datadate")

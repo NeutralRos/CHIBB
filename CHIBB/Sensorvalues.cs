@@ -10,6 +10,7 @@ namespace CHIBB
         public int? Sensordata { get; set; }
         public string Datadate { get; set; }
         public string Ipadress { get; set; }
+
         public virtual Sensors IdentifierNavigation { get; set; }
     }
 }

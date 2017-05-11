@@ -6,32 +6,23 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CHIBB;
-using CHIBB.Models;
 
 namespace CHIBB.Controllers
 {
     public class SensorvaluesController : Controller
     {
         private readonly CHIBBContext _context;
-        private readonly ISensorsRepository _sensorsRepository;
 
-        public SensorvaluesController(CHIBBContext context, ISensorsRepository sensorsRepository)
+        public SensorvaluesController(CHIBBContext context)
         {
-            _context = context;
-            _sensorsRepository = sensorsRepository;
-        } 
+            _context = context;    
+        }
 
         // GET: Sensorvalues
         public async Task<IActionResult> Index()
         {
             var cHIBBContext = _context.Sensorvalues.Include(s => s.IdentifierNavigation);
             return View(await cHIBBContext.ToListAsync());
-        }
-
-        [HttpGet]
-        public IEnumerable<Sensorvalues> GetAll()
-        {
-            return _sensorsRepository.GetAll();
         }
 
         // GET: Sensorvalues/Details/5
@@ -58,23 +49,6 @@ namespace CHIBB.Controllers
         {
             ViewData["Identifier"] = new SelectList(_context.Sensors, "Identifier", "Identifier");
             return View();
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> CreateWithJson([FromBody] Sensorvalues item)
-        {
-            if (item == null)
-            {
-                return BadRequest();
-            }
-
-            if (ModelState.IsValid)
-            {
-                _context.Add(item);
-                await _context.SaveChangesAsync();
-                return RedirectToAction("Index");
-            }
-            return CreatedAtRoute("GetTodo", new { id = item.Identifier }, item);
         }
 
         // POST: Sensorvalues/Create
@@ -180,6 +154,6 @@ namespace CHIBB.Controllers
         private bool SensorvaluesExists(int id)
         {
             return _context.Sensorvalues.Any(e => e.Valuekey == id);
-        } 
+        }
     }
 }

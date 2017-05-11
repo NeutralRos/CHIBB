@@ -21,6 +21,9 @@
                 <th>
                     @Html.DisplayNameFor(model => model.Sensorcomment)
                 </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Active)
+                </th>
             <th></th>
         </tr>
     </thead>
@@ -35,6 +38,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Sensorcomment)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Active)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Identifier">Edit</a> |

@@ -14,6 +14,7 @@ namespace CHIBB
         public string Sensorname { get; set; }
         public string Sensortype { get; set; }
         public string Sensorcomment { get; set; }
+        public bool? Active { get; set; }
 
         public virtual ICollection<Sensorvalues> Sensorvalues { get; set; }
     }

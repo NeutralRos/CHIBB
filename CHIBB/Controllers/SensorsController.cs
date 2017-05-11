@@ -48,29 +48,12 @@ namespace CHIBB.Controllers
             return View();
         }
 
-        [HttpPost]
-        public async Task<IActionResult> CreateWithJson([FromBody] Sensors item)
-        {
-            if (item == null)
-            {
-                return BadRequest();
-            }
-
-            if (ModelState.IsValid)
-            {
-                _context.Add(item);
-                await _context.SaveChangesAsync();
-                return RedirectToAction("Index");
-            }
-            return CreatedAtRoute("GetTodo", new { id = item.Identifier }, item);
-        }
-
         // POST: Sensors/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Identifier,Sensorname,Sensortype,Sensorcomment")] Sensors sensors)
+        public async Task<IActionResult> Create([Bind("Identifier,Sensorname,Sensortype,Sensorcomment,Active")] Sensors sensors)
         {
             if (ModelState.IsValid)
             {
@@ -102,7 +85,7 @@ namespace CHIBB.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("Identifier,Sensorname,Sensortype,Sensorcomment")] Sensors sensors)
+        public async Task<IActionResult> Edit(string id, [Bind("Identifier,Sensorname,Sensortype,Sensorcomment,Active")] Sensors sensors)
         {
             if (id != sensors.Identifier)
             {
@@ -164,6 +147,6 @@ namespace CHIBB.Controllers
         private bool SensorsExists(string id)
         {
             return _context.Sensors.Any(e => e.Identifier == id);
-        } 
-    } 
+        }
+    }
 }
