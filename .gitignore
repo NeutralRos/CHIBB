@@ -4,8 +4,8 @@ bin/
 obj/
 CHIBB/bin/*
 CHIBB/obj/*
-SensorGenerator/obj/*
-SensorGenerator/bin/*
+SensorGenerator/obj/
+SensorGenerator/bin/
 .vs/
 
 # Compiled source #
