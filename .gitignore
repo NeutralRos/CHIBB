@@ -2,11 +2,8 @@
 ###############################
 bin/
 obj/
-CHIBB/bin/
-CHIBB/obj/
-SensorGenerator/obj/
-SensorGenerator/bin/
 .vs/
+Properties/
 
 # Compiled source #
 ###################
