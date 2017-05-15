@@ -31,10 +31,20 @@ namespace CHIBB
         {
             services.AddMvc();
 
-            var connection = @"Host=localhost;Database=CHIBB;Username=postgres;Password=FarCry3";
+            var connection = @"Host=localhost;Database=CHIBB;Username=postgres;Password=primo1994";
             services.AddDbContext<CHIBBContext>(options => options.UseNpgsql(connection));
 
             services.AddScoped<ISensorsRepository, SenorsRepository>();
+
+            // Adds a default in-memory implementation of IDistributedCache.
+            services.AddDistributedMemoryCache();
+
+            services.AddSession(options =>
+            {
+                // Set a short timeout for easy testing.
+                options.IdleTimeout = TimeSpan.FromHours(1);
+                options.CookieHttpOnly = true;
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -55,6 +65,7 @@ namespace CHIBB
 
             app.UseStaticFiles();
 
+            app.UseSession();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(

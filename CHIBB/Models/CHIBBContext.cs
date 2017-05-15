@@ -6,6 +6,7 @@ namespace CHIBB
 {
     public partial class CHIBBContext : DbContext
     {
+        public virtual DbSet<Accounts> Accounts { get; set; }
         public virtual DbSet<Sensors> Sensors { get; set; }
         public virtual DbSet<Sensorvalues> Sensorvalues { get; set; }
 
@@ -17,6 +18,43 @@ namespace CHIBB
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Accounts>(entity =>
+            {
+                entity.HasKey(e => e.Username)
+                    .HasName("PK_accounts");
+
+                entity.ToTable("accounts");
+
+                entity.Property(e => e.Username)
+                    .HasColumnName("username")
+                    .HasColumnType("varchar")
+                    .HasMaxLength(255);
+
+                entity.Property(e => e.Email)
+                    .IsRequired()
+                    .HasColumnName("email")
+                    .HasColumnType("varchar")
+                    .HasMaxLength(255);
+
+                entity.Property(e => e.Password)
+                    .IsRequired()
+                    .HasColumnName("password")
+                    .HasColumnType("varchar")
+                    .HasMaxLength(255);
+
+                entity.Property(e => e.Role)
+                    .IsRequired()
+                    .HasColumnName("role")
+                    .HasColumnType("varchar")
+                    .HasMaxLength(255);
+
+                entity.Property(e => e.Active)
+                    .IsRequired()
+                    .HasColumnName("active")
+                    .HasColumnType("bool");
+            });
+
+
             modelBuilder.Entity<Sensors>(entity =>
             {
                 entity.HasKey(e => e.Identifier)

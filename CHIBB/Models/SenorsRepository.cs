@@ -19,5 +19,7 @@ namespace CHIBB.Models
         {
             return _context.Sensorvalues.ToList();
         }
+
+        
     }
 }

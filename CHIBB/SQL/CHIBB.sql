@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS Sensors, SensorValues;
+DROP TABLE IF EXISTS Sensors, SensorValues, Accounts;
 
 CREATE TABLE Sensors (
     Identifier varchar(255) NOT NULL PRIMARY KEY,
@@ -15,3 +15,11 @@ CREATE TABLE SensorValues (
     DataDate varchar(255),
     IpAdress varchar(255)
 );
+
+CREATE TABLE Accounts (
+    Username varchar(255) NOT NULL PRIMARY KEY,
+    Password varchar(255) NOT NULL,
+    Email varchar(255) NOT NULL,
+    Role varchar(255) NOT NULL,
+    Active bool NOT NULL
+)

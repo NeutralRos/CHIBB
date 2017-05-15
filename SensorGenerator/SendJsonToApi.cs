@@ -23,7 +23,7 @@ namespace SensorGenerator
 
         public async System.Threading.Tasks.Task SendJsonAsync()
         {
-            this.Url = "Sensorvalues/CreateWithJson";
+            this.Url = "Sensorvalues/Create";
 
             foreach (var sensor in allSensors)
             {
@@ -41,7 +41,7 @@ namespace SensorGenerator
 
         public async System.Threading.Tasks.Task SendJsonFirstTimeAsync()
         {
-            this.Url = "Sensors/CreateWithJson";
+            this.Url = "Sensors/Create";
 
             foreach (var sensor in allSensors)
             {

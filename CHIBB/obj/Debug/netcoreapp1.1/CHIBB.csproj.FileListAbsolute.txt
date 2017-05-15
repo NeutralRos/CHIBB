@@ -14,3 +14,4 @@ D:\Windows\Projects\CHIBB\CHIBB\bin\Debug\netcoreapp1.1\CHIBB.dll
 D:\Windows\Projects\CHIBB\CHIBB\bin\Debug\netcoreapp1.1\CHIBB.pdb
 D:\Windows\Projects\CHIBB\CHIBB\obj\Debug\netcoreapp1.1\CHIBB.dll
 D:\Windows\Projects\CHIBB\CHIBB\obj\Debug\netcoreapp1.1\CHIBB.pdb
+D:\Windows\Projects\CHIBB\CHIBB\obj\Debug\netcoreapp1.1\CHIBB.csprojResolveAssemblyReference.cache
