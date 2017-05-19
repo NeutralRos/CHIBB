@@ -1,9 +1,0 @@
-C:\Users\oveld\documents\visual studio 2017\Projects\CHIBB\SensorGenerator\bin\Debug\netcoreapp1.1\SensorGenerator.deps.json
-C:\Users\oveld\documents\visual studio 2017\Projects\CHIBB\SensorGenerator\bin\Debug\netcoreapp1.1\SensorGenerator.runtimeconfig.json
-C:\Users\oveld\documents\visual studio 2017\Projects\CHIBB\SensorGenerator\bin\Debug\netcoreapp1.1\SensorGenerator.runtimeconfig.dev.json
-C:\Users\oveld\documents\visual studio 2017\Projects\CHIBB\SensorGenerator\obj\Debug\netcoreapp1.1\SensorGenerator.AssemblyInfo.cs
-C:\Users\oveld\documents\visual studio 2017\Projects\CHIBB\SensorGenerator\bin\Debug\netcoreapp1.1\SensorGenerator.dll
-C:\Users\oveld\documents\visual studio 2017\Projects\CHIBB\SensorGenerator\bin\Debug\netcoreapp1.1\SensorGenerator.pdb
-C:\Users\oveld\documents\visual studio 2017\Projects\CHIBB\SensorGenerator\obj\Debug\netcoreapp1.1\SensorGenerator.dll
-C:\Users\oveld\documents\visual studio 2017\Projects\CHIBB\SensorGenerator\obj\Debug\netcoreapp1.1\SensorGenerator.pdb
-C:\Users\oveld\documents\visual studio 2017\Projects\CHIBB\SensorGenerator\obj\Debug\netcoreapp1.1\SensorGenerator.csprojResolveAssemblyReference.cache
