@@ -7484,15 +7484,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Robin\\.nuget\\packages\\": {}
+    "C:\\Users\\sande\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Robin\\Documents\\GitHub\\CHIBB\\SensorGenerator\\SensorGenerator.csproj",
+      "projectUniqueName": "C:\\Users\\sande\\Documents\\GitHub\\CHIBB\\SensorGenerator\\SensorGenerator.csproj",
       "projectName": "SensorGenerator",
-      "projectPath": "C:\\Users\\Robin\\Documents\\GitHub\\CHIBB\\SensorGenerator\\SensorGenerator.csproj",
-      "outputPath": "C:\\Users\\Robin\\Documents\\GitHub\\CHIBB\\SensorGenerator\\obj\\",
+      "projectPath": "C:\\Users\\sande\\Documents\\GitHub\\CHIBB\\SensorGenerator\\SensorGenerator.csproj",
+      "outputPath": "C:\\Users\\sande\\Documents\\GitHub\\CHIBB\\SensorGenerator\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
