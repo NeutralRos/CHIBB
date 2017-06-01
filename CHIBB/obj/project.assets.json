@@ -11036,6 +11036,7 @@
       "Microsoft.AspNetCore >= 1.1.1",
       "Microsoft.AspNetCore.Mvc >= 1.1.2",
       "Microsoft.AspNetCore.StaticFiles >= 1.1.1",
+      "Microsoft.CSharp >= 4.3.0",
       "Microsoft.EntityFrameworkCore.Design >= 1.1.1",
       "Microsoft.EntityFrameworkCore.InMemory >= 1.1.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 1.1.1",
@@ -11050,15 +11051,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Robin\\.nuget\\packages\\": {}
+    "C:\\Users\\sande\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Robin\\Documents\\GitHub\\CHIBB\\CHIBB\\CHIBB.csproj",
+      "projectUniqueName": "C:\\Users\\sande\\Documents\\GitHub\\CHIBB\\CHIBB\\CHIBB.csproj",
       "projectName": "CHIBB",
-      "projectPath": "C:\\Users\\Robin\\Documents\\GitHub\\CHIBB\\CHIBB\\CHIBB.csproj",
-      "outputPath": "C:\\Users\\Robin\\Documents\\GitHub\\CHIBB\\CHIBB\\obj\\",
+      "projectPath": "C:\\Users\\sande\\Documents\\GitHub\\CHIBB\\CHIBB\\CHIBB.csproj",
+      "outputPath": "C:\\Users\\sande\\Documents\\GitHub\\CHIBB\\CHIBB\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
@@ -11128,6 +11129,10 @@
           "Microsoft.ApplicationInsights.AspNetCore": {
             "target": "Package",
             "version": "2.0.0"
+          },
+          "Microsoft.CSharp": {
+            "target": "Package",
+            "version": "4.3.0"
           },
           "Microsoft.AspNetCore.StaticFiles": {
             "target": "Package",

@@ -6,3 +6,12 @@ C:\Users\oveld\documents\visual studio 2017\Projects\CHIBB\CHIBB\bin\Debug\netco
 C:\Users\oveld\documents\visual studio 2017\Projects\CHIBB\CHIBB\obj\Debug\netcoreapp1.1\CHIBB.AssemblyInfo.cs
 C:\Users\oveld\documents\visual studio 2017\Projects\CHIBB\CHIBB\obj\Debug\netcoreapp1.1\CHIBB.dll
 C:\Users\oveld\documents\visual studio 2017\Projects\CHIBB\CHIBB\obj\Debug\netcoreapp1.1\CHIBB.pdb
+C:\Users\sande\Documents\GitHub\CHIBB\CHIBB\bin\Debug\netcoreapp1.1\CHIBB.deps.json
+C:\Users\sande\Documents\GitHub\CHIBB\CHIBB\bin\Debug\netcoreapp1.1\CHIBB.runtimeconfig.json
+C:\Users\sande\Documents\GitHub\CHIBB\CHIBB\bin\Debug\netcoreapp1.1\CHIBB.runtimeconfig.dev.json
+C:\Users\sande\Documents\GitHub\CHIBB\CHIBB\bin\Debug\netcoreapp1.1\CHIBB.dll
+C:\Users\sande\Documents\GitHub\CHIBB\CHIBB\bin\Debug\netcoreapp1.1\CHIBB.pdb
+C:\Users\sande\Documents\GitHub\CHIBB\CHIBB\obj\Debug\netcoreapp1.1\CHIBB.csprojResolveAssemblyReference.cache
+C:\Users\sande\Documents\GitHub\CHIBB\CHIBB\obj\Debug\netcoreapp1.1\CHIBB.AssemblyInfo.cs
+C:\Users\sande\Documents\GitHub\CHIBB\CHIBB\obj\Debug\netcoreapp1.1\CHIBB.dll
+C:\Users\sande\Documents\GitHub\CHIBB\CHIBB\obj\Debug\netcoreapp1.1\CHIBB.pdb
