@@ -16,3 +16,12 @@ C:\Users\sande\Documents\GitHub\CHIBB\SensorGenerator\obj\Debug\netcoreapp1.1\Se
 C:\Users\sande\Documents\GitHub\CHIBB\SensorGenerator\obj\Debug\netcoreapp1.1\SensorGenerator.AssemblyInfo.cs
 C:\Users\sande\Documents\GitHub\CHIBB\SensorGenerator\obj\Debug\netcoreapp1.1\SensorGenerator.dll
 C:\Users\sande\Documents\GitHub\CHIBB\SensorGenerator\obj\Debug\netcoreapp1.1\SensorGenerator.pdb
+C:\Users\SanSlciey\Documents\GitHub\CHIBB\SensorGenerator\bin\Debug\netcoreapp1.1\SensorGenerator.deps.json
+C:\Users\SanSlciey\Documents\GitHub\CHIBB\SensorGenerator\bin\Debug\netcoreapp1.1\SensorGenerator.runtimeconfig.json
+C:\Users\SanSlciey\Documents\GitHub\CHIBB\SensorGenerator\bin\Debug\netcoreapp1.1\SensorGenerator.runtimeconfig.dev.json
+C:\Users\SanSlciey\Documents\GitHub\CHIBB\SensorGenerator\bin\Debug\netcoreapp1.1\SensorGenerator.dll
+C:\Users\SanSlciey\Documents\GitHub\CHIBB\SensorGenerator\bin\Debug\netcoreapp1.1\SensorGenerator.pdb
+C:\Users\SanSlciey\Documents\GitHub\CHIBB\SensorGenerator\obj\Debug\netcoreapp1.1\SensorGenerator.csprojResolveAssemblyReference.cache
+C:\Users\SanSlciey\Documents\GitHub\CHIBB\SensorGenerator\obj\Debug\netcoreapp1.1\SensorGenerator.AssemblyInfo.cs
+C:\Users\SanSlciey\Documents\GitHub\CHIBB\SensorGenerator\obj\Debug\netcoreapp1.1\SensorGenerator.dll
+C:\Users\SanSlciey\Documents\GitHub\CHIBB\SensorGenerator\obj\Debug\netcoreapp1.1\SensorGenerator.pdb
